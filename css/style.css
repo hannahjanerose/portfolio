@@ -294,6 +294,10 @@ section {
     align-items: center;
 }
 
+.text-container {
+    padding-bottom: 5rem;
+}
+
 .section-container {
     gap: 4rem;
     height: 80%
