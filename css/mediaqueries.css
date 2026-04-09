@@ -73,7 +73,21 @@
 
     .about-containers, .contact-info-upper-container, .btn-container{
         flex-wrap: wrap;
-    } 
+
+    }
+
+    #about h3 {
+        font-size: 1rem;
+    }
+    
+    about-details-containers about-container p,
+    .about-details-container .text-container p {
+        font-size: 0.75rem;
+    }
+
+    #about p {
+        font-size: 0.8rem;
+    }
     
     .contact-info-container {
         margin: 0;
