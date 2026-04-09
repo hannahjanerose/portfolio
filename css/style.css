@@ -288,6 +288,10 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-container {
@@ -299,6 +303,10 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.degree {
+    font-weight: bold;
 }
 
 /* skills section */
