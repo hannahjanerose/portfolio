@@ -144,7 +144,6 @@ a:hover {
 /* sections */
 section {
     padding-top: 4vh;
-    min-height: 96vh; 
     height: auto;;
     margin: 0 10rem;
     box-sizing: border-box;
@@ -256,6 +255,7 @@ section {
 
 .about-containers {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -295,7 +295,7 @@ section {
 }
 
 .text-container {
-    padding-bottom: 5rem;
+    padding-bottom: rem;
 }
 
 .section-container {
