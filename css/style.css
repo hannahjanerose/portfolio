@@ -447,7 +447,19 @@ article .icon {
 
 .project-btn {
     color: black;
+    background-color: white;
     border-color: rgb(163, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.project-btn:hover {
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(163, 163, 163);
+    color: black;
+    cursor: pointer;
 }
 
 .project-skills {
@@ -464,6 +476,12 @@ article .icon {
     font-size: 0.8rem;
     cursor: default;
     
+}
+
+.btn-icon {
+    width: 1rem;
+    height: auto;
+    transition: transform 300ms ease;
 }
 
 /* contact */
