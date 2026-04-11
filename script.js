@@ -8,10 +8,13 @@ function toggleMenu() {
 function toggleDescription(button) {
   const projectCard = button.closest('.details-container');
   const description = projectCard.querySelector('.project-description');
+  const icon = button.querySelector('.btn-icon');
+  
   description.classList.toggle('show');
+
   if (description.classList.contains('show')) {
-    button.textContent = 'Show Less';
+    if (icon) icon.style.transform = 'rotate(180deg)'; 
   } else {
-    button.textContent = 'Learn More';
+    if (icon) icon.style.transform = 'rotate(0deg)'; 
   }
 }

@@ -92,7 +92,7 @@
                       <p>Crosswords</p>
                       <p>HayDay</p>
                       <p>Making Jewelry</p>
-                      <p>Looseleaf Tea</p>
+                      <p>Loose-Leaf Tea</p>
                       <p></p>
                   </div>
               </div>
@@ -221,7 +221,10 @@
           <h2 class="skills-subtitle project-title">Art Price Prediction ML Model</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://colab.research.google.com/drive/1nDJX4Pp0fxjw1x7ByLlVpjI8cU7IP8Ca?usp=sharing'">Google Colab</button>
-            <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">Learn More</button>
+            <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">
+              <span class="btn-text">Expand</span>
+              <img src="./assets/down-arrow.png" alt="arrow" class="btn-icon" />
+            </button>
           </div>
           <p class="project-description">Using Scikit-learn, pandas, and NumPy, I created a machine learning model to predict the prices of art pieces based on a variety of factors including subject, style, medium, and mood from tabular data. I performed K-Fold Cross-Validation to select between a k-Nearest-Neighbors and Ridge Regression model. I used MSE, MAE, and MRE to evaluated the final model's prediction accuracy and determine whether the model tended to over- or under-predict art prices. I also created visualizations using Plotly, evaluating how the model performed on different price ranges and art styles.</p>
           <div class="btn-container project-skills">
@@ -276,15 +279,35 @@
           <h2 class="skills-subtitle project-title">Washington State of the Girl Report (In Progress)</h2>
           <p class="degree">Girl Scouts of Western Washington, WMarketplace</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='url'">Website</button>
             <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">Learn More</button>
           </div>
-          <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequuntur dicta debitis excepturi iure saepe inventore fugit architecto molestias iusto enim ut voluptates velit suscipit necessitatibus unde, quam nam ratione.</p>
+          <p class="project-description">For my capstone, I'm working in a team of five to create the first Washington State of the Girl Report, sponsored by the Girl Scouts of Western Washington and WMarketplace. Our goal is to provide an overview of what girls need most in Washington state in order to guide policy, funding, and programming decisions. So far, our team has performed a comprehensive data review, researching how girls are doing in five main categories: physical health, emotional health, social wellness, academic and career readiness, and safety. We're currently in the process of creating our comprehensive data report to be distributed statewide and iterating on our product to ensure we're capturing the most important issues girls are facing today.</p>
           <div class="btn-container project-skills">
             <button class="btn btn-color-3 project-skills-btn">Data Analysis</button>
             <button class="btn btn-color-3 project-skills-btn">Data Visualization</button>
             <button class="btn btn-color-3 project-skills-btn">Data Storytelling</button>
             <button class="btn btn-color-3 project-skills-btn">Stakeholder Analysis</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Bot.png" alt="Screenshot of data report on Washington State girls' mental health"
+              class="project-img" />
+          </div>
+        
+          <h2 class="skills-subtitle project-title">Bot Meets Buyer</h2>
+          <p class="degree">Heffernan Insurance Brokers</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/bot-meets-buyer.pdf')">Slide Deck</button>
+            <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">Learn More</button>
+          </div>
+          <p class="project-description">During my internship with Heffernan Insurance Brokers, I led a four-person group in designing and piloting a custom customer support chatbot to their company website using Google DialogFlow. I performed a competitive analysis on several chatbot platforms, evaluated client use cases, and designed and developed the chatbot based on stakeholder requirements. As project manager, I coordinated team meetings, ensured deliverables were completed on time, led the development process, and presented our result and recommendations for rollout to company executies.</p>
+          <div class="btn-container project-skills">
+            <button class="btn btn-color-3 project-skills-btn">Project Management</button>
+            <button class="btn btn-color-3 project-skills-btn">Competitive Analysis</button>
+            <button class="btn btn-color-3 project-skills-btn">UX/UI</button>
+            <button class="btn btn-color-3 project-skills-btn">Cross-Functional Collaboration</button>
+            <button class="btn btn-color-3 project-skills-btn">Chatbot Design</button>
           </div>
         </div>
         <!-- <div class="details-container color-container">
@@ -308,13 +331,12 @@
           <div class="article-container">
             <img src="./assets/Website.png" alt="Screenshot of the landing page of this website" class="project-img" />
           </div>
-        
-          <h2 class="skills-subtitle project-title">This Website</h2>
+          <h2 class="skills-subtitle project-title">This Website!</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn" onclick="location.href='url'">GitHub</button>
             <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">Learn More</button>
           </div>
-          <p class="project-description">Woah, meta! <br> I figured it would be wayyyy cooler to be able to say that I built my portfolio website on my own than to be boring and use a website builder. I am definitely no web developer, but I was able to use the skills I gained from my Client Side Development class to build this portfolio website with some basic HTML, CSS, and JavaScript. In total, this only took me about 2 days!</p>
+          <p class="project-description">Woah, meta! <br> I figured it would be wayyyy cooler to be able to say that I built my portfolio website on my own than to be boring and use a website builder. I am definitely no web developer, but I was able to use the skills I gained from my Client Side Development class to build this portfolio website with some basic HTML, CSS, and JavaScript. I managed version control with GitHub and deployed the website using CloudFlare. In total, this only took me about 2 days! Not too shabby, if I say so myself.</p>
           <div class="btn-container project-skills">
             <button class="btn btn-color-3 project-skills-btn">HTML</button>
             <button class="btn btn-color-3 project-skills-btn">CSS</button>
