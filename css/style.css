@@ -305,9 +305,6 @@ section {
     align-items: center;
 }
 
-.details-container .degree {
-    padding-bottom: 1rem;
-}
 .section-container {
     gap: 4rem;
     height: 80%
@@ -409,6 +406,10 @@ article .icon {
     margin-bottom: 1rem;
     border-radius: 2rem;
     overflow: hidden;
+}
+
+#projects .degree {
+    padding-bottom: 1rem;
 }
 
 .color-container {
