@@ -475,7 +475,8 @@ article .icon {
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
     cursor: default;
-    
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn-icon {
