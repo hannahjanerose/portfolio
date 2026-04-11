@@ -479,6 +479,7 @@ article .icon {
     cursor: default;
     appearance: none;
     -webkit-appearance: none;
+    color: black;
 }
 
 .btn-icon {
