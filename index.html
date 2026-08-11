@@ -45,9 +45,9 @@
           <h1 class="title">Hannah Rose</h1>
           <p class="section__text__p2">Data Scientist</p>
           <div class="btn-container">
-              <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1Pb4dK00Yo2m4ztWb9tSUeAshq2HtyjYI/view?usp=sharing', '_blank')">
+              <!-- <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1Pb4dK00Yo2m4ztWb9tSUeAshq2HtyjYI/view?usp=sharing', '_blank')">
                   Resume
-              </button>
+              </button> -->
               <button class="btn btn-color-1" onclick="location.href='./#contact'">
                   Contact Info
               </button>
@@ -65,7 +65,7 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
           <div class="section__pic-container">
-              <img src="./assets/personality-pic.jpg" alt="photo of white girl with brown hair, wearing a jacket, a white tank top, and a skirt, carrying a pink bag." class="about-pic"/>
+              <img src="./assets/personality-pic.jpg" alt="photo of white woman with brown hair, wearing a jacket, a white tank top, and a skirt, carrying a pink bag." class="about-pic"/>
           </div>
           <div class="about-details-container">
               <div class="about-containers">
@@ -99,10 +99,10 @@
               </div>
               <div class="text-container">
                   <p>
-                      <strong>Hi, I'm Hannah!</strong> I'm an Informatics student at the University of Washington on the Data Science track. From <strong>exploratory data analysis</strong> to <strong>machine learning</strong>, I love digging deeper into data to uncover useful information that might otherwise go overlooked. I believe that data can be incredibly powerful if you know what to look for, and <strong>that's where my primary interest lies.</strong>
+                      <strong>Hi, I'm Hannah!</strong> I'm an Informatics student at the University of Washington studying Data Science. From <strong>exploratory data analysis</strong> to <strong>machine learning</strong>, I love digging deeper into data to uncover useful information that might otherwise go overlooked. I believe that data can be incredibly powerful if you know what to look for, and <strong>that's where my primary interest lies.</strong>
                   </p>
                   <p>
-                    In my free time, I like to <strong>knit</strong> (so far I have knit a sweater and a giant shawl!), <strong>read</strong> (I am always taking book recs: I love thrillers, historical fiction, and memoirs), and <strong>do crosswords</strong> (so far I can only do up to Thursday of the NYT without cheating but we're getting there), among other things.
+                    In my free time, I like to knit (so far I have knit a sweater and a giant shawl!), read (I am always taking book recs), and do crosswords (so far I can only solve up to Thursday of the NYT without cheating...), among other things.
                   </p>
               </div>
           </div>
@@ -167,7 +167,7 @@
               <img src="./assets/check-mark.png" alt="Check mark" class="icon" />
               <div>
                 <h3>Machine Learning</h3>
-                <p>Scikit-learn</p>
+                <p>Python, Scikit-learn</p>
               </div>
             </article>
             <article>
@@ -181,7 +181,7 @@
               <img src="./assets/check-mark.png" alt="Check mark" class="icon" />
               <div>
                 <h3>Databases</h3>
-                <p>Design & Management</p>
+                <p>SQL, SQL Server</p>
               </div>
             </article>
             <article>
@@ -195,7 +195,7 @@
               <img src="./assets/check-mark.png" alt="Check mark" class="icon" />
               <div>
                 <h3>Data Wrangling</h3>
-                <p>Python, R</p>
+                <p>Power Query, Python, R</p>
               </div>
             </article>
             <article>
@@ -237,62 +237,22 @@
             <button class="btn btn-color-3 project-skills-btn">Machine Learning</button>
           </div>
         </div>
+        
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/wine4.png"
-              alt="Screenshot of a Quarto report investigating the relationship between Alcohol Content and Wine Type on Quality"
-              class="project-img" />
-          </div>
-          <h2 class="skills-subtitle project-title">Wine Quality Comparison Data Analysis</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="window.open('https://drive.google.com/file/d/1BOk1q-Tcb8oL-11S0p8GmYF7qMXRoXie/view?usp=sharing', '_blank')">PDF</button>
-            <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">
-              <span class="btn-text">Expand</span>
-              <img src="./assets/down-arrow.png" alt="arrow" class="btn-icon" />
-            </button>
-          </div>
-          <p class="project-description">For this project, I used Tidyverse in R to investigate the relationship between alcohol content, wine type, and wine quality ratings using a dataset from the UCI Machine Learning Repository. I prepared and joined separate datasets for red and white wines and performed an exploratory data analysis with scatterplots and boxplots. For my analysis, I fitted a simple linear regression model to model the relationship between alcohol content and quality for red wine, and a multiple linear regression model to determine if the impact of alcohol content depended on the type of wine. I then calculated a 95% confidence interval to quantify the relationship. The results revealed a statistically significant correlation between alcohol content and wine quality for both wine types.</p>
-          <div class="btn-container project-skills">
-            <button class="btn btn-color-3 project-skills-btn">R</button>
-            <button class="btn btn-color-3 project-skills-btn">tidyverse</button>
-            <button class="btn btn-color-3 project-skills-btn">ggplot</button>
-            <button class="btn btn-color-3 project-skills-btn">Data Visualization</button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/Bechdel6.png" alt="Screenshot of a graph showing the relationship between year and average popularity of movies that passed the Bechdel test" class="project-img" />
-          </div>
-          <h2 class="skills-subtitle project-title">Movie Bechdel Scores Data Analysis</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/Bechdel.html')">Web Page</button>
-            <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">
-              <span class="btn-text">Expand</span>
-              <img src="./assets/down-arrow.png" alt="arrow" class="btn-icon" />
-            </button>
-          </div>
-          <p class="project-description">The Bechdel Test, coined by artist Alison Bechdel, is a popular measure of gender representation in movies and other media. To fully pass the test, a work must meet three criteria: It must have at least two named women characters, the women must talk to each other at least once, and their conversation must be about something other than a man. There are a surprising number of movies that actually don't pass the Bechdel test (including the Lord of the Rings trilogy, Avatar, Finding Nemo, and the Princess Bride, to name a few). I was curious how the number of movies that pass this test may have changed over time and whether it impacted movie popularity, so I performed an exploratory data analysis in R, joining two datasets: one with over 200K Letterboxd reviews, and another with a list of movies passing the Bechdel Test. The analysis revealed a dramatic increase in movies that pass the Bechdel Test over time, although there did not appear to be a significant correlation between Bechdel Test scores and movie popularity.</p>
-          <div class="btn-container project-skills">
-            <button class="btn btn-color-3 project-skills-btn">R</button>
-            <button class="btn btn-color-3 project-skills-btn">tidyverse</button>
-            <button class="btn btn-color-3 project-skills-btn">ggplot</button>
-            <button class="btn btn-color-3 project-skills-btn">Exploratory Data Analysis</button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/GSWW7.png" alt="Screenshot of data report on Washington State girls' mental health" class="project-img" />
+            <img src="./assets/GSWW.png" alt="Screenshot of data report on Washington State girls' mental health" class="project-img" />
           </div>
         
           <h2 class="skills-subtitle project-title">State of the Girl Report</h2>
           <p class="degree">Girl Scouts of Western Washington, WMarketplace</p>
           <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://canva.link/261jj41zdt0mjlv')">Canva</button>
             <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">
               <span class="btn-text">Expand</span>
               <img src="./assets/down-arrow.png" alt="arrow" class="btn-icon" />
             </button>
           </div>
-          <p class="project-description">For my capstone, I'm working in a team of five to create the first Washington State of the Girl Report, sponsored by the Girl Scouts of Western Washington and WMarketplace. Our goal is to provide an overview of what girls need most in Washington state in order to guide policy, funding, and programming decisions. So far, our team has performed a comprehensive data review, researching how girls are doing in five main categories: physical health, emotional health, social wellness, academic and career readiness, and safety. We're currently in the process of creating our comprehensive data report to be distributed statewide and iterating on our product to ensure we're capturing the most important issues girls are facing today.</p>
+          <p class="project-description">For my capstone, I worked in a team of five, partnering with the Girl Scouts of Western Washington and WMarketplace, to create the first-of-its-kind Washington State of the Girl Report. Our goal was to provide a snapshot of how girls are doing in WA to guide policy, funding, and programming decisions. We researched how girls are performing in five main categories – physical health, emotional health, social wellness, academic and career readiness, and safety – and created a detailed report showcasing our findings. My primary focus was the research, design, and creation of the Emotional Health section.</p>
           <div class="btn-container project-skills">
             <button class="btn btn-color-3 project-skills-btn">Data Analysis</button>
             <button class="btn btn-color-3 project-skills-btn">Data Visualization</button>
@@ -319,8 +279,6 @@
             <button class="btn btn-color-3 project-skills-btn">Project Management</button>
             <button class="btn btn-color-3 project-skills-btn">Competitive Analysis</button>
             <button class="btn btn-color-3 project-skills-btn">UX/UI</button>
-            <button class="btn btn-color-3 project-skills-btn">Cross-Functional Collaboration</button>
-            <button class="btn btn-color-3 project-skills-btn">Chatbot Design</button>
           </div>
         </div>
         <!-- <div class="details-container color-container">
@@ -345,7 +303,7 @@
             <img src="./assets/Website.png" alt="Screenshot of the landing page of this website" class="project-img" />
           </div>
           <h2 class="skills-subtitle project-title">This Website</h2>
-          <p class="degree">For fun!</p>
+          <p class="degree">For fun</p>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/hannahjanerose/portfolio')">GitHub</button>
             <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">
@@ -353,7 +311,7 @@
               <img src="./assets/down-arrow.png" alt="arrow" class="btn-icon" />
             </button>
           </div>
-          <p class="project-description">Woah, meta! <br> I figured it would be wayyyy cooler to be able to say that I built my portfolio website on my own than to be boring and use a website builder. I am definitely no web developer, but I was able to use the skills I gained from my Client Side Development class to build this portfolio website with some basic HTML, CSS, and JavaScript. I managed version control with GitHub and deployed the website using CloudFlare. In total, this only took me about 2 days! Not too shabby, if I say so myself.</p>
+          <p class="project-description">Woah, meta. <br> I figured it would be way cooler to be able to say that I built my own portfolio website than to use a website builder. I am definitely no web developer, but I was able to use the skills I gained from my Client Side Development class to build this portfolio website with some basic HTML, CSS, and JavaScript. I managed version control with GitHub and deployed the website using CloudFlare. In total, this only took me about 2 days. Not too bad, if I say so myself.</p>
           <div class="btn-container project-skills">
             <button class="btn btn-color-3 project-skills-btn">HTML</button>
             <button class="btn btn-color-3 project-skills-btn">CSS</button>
@@ -372,7 +330,7 @@
     <div class="contact-info-upper-container">
       <div class="contact-info-container">
         <img src="./assets/email.png" alt="Email icon" class="icon contact-icon" />
-        <p><a href="mailto:hjrose@uw.edu">hjrose@uw.edu</a></p>
+        <p><a href="mailto:hannah-j-rose@outlook.com">Email</a></p>
       </div>
       <div class="contact-info-container">
         <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
