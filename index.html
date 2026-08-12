@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
     <link rel="icon" type="image/x-icon" href="./assets/profile-pic.png">
-</head>
+
 <body>
   <nav id="desktop-nav">
       <div class="logo">Hannah Rose</div>
@@ -45,9 +45,6 @@
           <h1 class="title">Hannah Rose</h1>
           <p class="section__text__p2">Data Scientist</p>
           <div class="btn-container">
-              <!-- <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1Pb4dK00Yo2m4ztWb9tSUeAshq2HtyjYI/view?usp=sharing', '_blank')">
-                  Resume
-              </button> -->
               <button class="btn btn-color-1" onclick="location.href='./#contact'">
                   Contact Info
               </button>
@@ -55,8 +52,6 @@
           <div id="socials-container">
               <img src="./assets/linkedin.png" alt="LinkedIn logo"
               class="icon" onclick="window.open('https://www.linkedin.com/in/hannah-j-rose/', '_blank')"/>
-              <img src="./assets/github.png" alt="GitHub logo"
-              class="icon" onclick="location.href='https://www.github.com/hannahjanerose', '_blank'"/>
           </div> 
       </div>
       
@@ -219,7 +214,7 @@
           <div class="article-container">
             <img src="./assets/Colab.png" alt="Google Colab Screenshot" class="project-img"/>
           </div>
-          <h2 class="skills-subtitle project-title">Art Price Prediction ML Model</h2>
+          <h2 class="skills-subtitle project-title">Art Price Prediction Machine Learning Model</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn" onclick="window.open('https://colab.research.google.com/drive/1Jcdwm56y_BW7TEd4QZkJyex1OiayGRss?usp=sharing', '_blank')">Google Colab</button>
             <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">
@@ -237,7 +232,58 @@
             <button class="btn btn-color-3 project-skills-btn">Machine Learning</button>
           </div>
         </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/tableau-proj.png" alt="Screenshot of data report on education and living costs"
+              class="project-img" />
+          </div>
         
+          <h2 class="skills-subtitle project-title">Education & Living Costs Dashboard</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://public.tableau.com/app/profile/hannah.rose8733/viz/InternationalEducationandLivingCostsDashboard/InternationalEducationandLivingCosts?publish=yes')">Dashboard</button>
+            <button class="btn btn-color-2 project-btn" 
+              onclick="window.open('./assets/tableau-project-documentation.pdf')">Documentation</button>
+            <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">
+              <span class="btn-text">Expand</span>
+              <img src="./assets/down-arrow.png" alt="arrow" class="btn-icon" />
+            </button>
+          </div>
+          <p class="project-description">For my Interactive Information Visualization class, I created a Tableau data story examing student living expenses by university country, city, degree level, and major using public university and cost of living data sourced from Kaggle. I first created a draft dashboard in Excel, then imported and wrangled data in Tableau Prep Builder, and built out the final dashboard in Tableau. I discovered that the United States was the most expensive country to study abroad in by across the board, followed by Singapore, Australia, the UK, Canada, and New Zealand.</p>
+          <div class="btn-container project-skills">
+            <button class="btn btn-color-3 project-skills-btn">Tableau</button>
+            <button class="btn btn-color-3 project-skills-btn">Excel</button>
+            <button class="btn btn-color-3 project-skills-btn">Data Wrangling</button>
+            <button class="btn btn-color-3 project-skills-btn">Data Analysis</button>
+            <button class="btn btn-color-3 project-skills-btn">Data Visualization</button>
+            <button class="btn btn-color-3 project-skills-btn">Data Storytelling</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/databricks.png" alt="Screenshot of create table statements in Databricks" class="project-img" />
+          </div>
+        
+          <h2 class="skills-subtitle project-title">Ice Cream Shop Data Warehouse</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">
+              <span class="btn-text">Expand</span>
+              <img src="./assets/down-arrow.png" alt="arrow" class="btn-icon" />
+            </button>
+          </div>
+          <p class="project-description">For my Database Design and Management class, I designed and built a multi-part database
+            system for a fictional ice cream
+            shop. I started by designing an OLTP schema to support day-to-day shop operations, then built out a dimensional data
+            warehouse with Sales and Flavor/Menu star schemas for reporting. I developed a Spark and Databricks ETL pipeline to
+            move data from source to warehouse, and finished by designing a MongoDB-based customer loyalty program to explore
+            NoSQL data modeling alongside the relational work.</p>
+          <div class="btn-container project-skills">
+            <button class="btn btn-color-3 project-skills-btn">SQL</button>
+            <button class="btn btn-color-3 project-skills-btn">PySpark</button>
+            <button class="btn btn-color-3 project-skills-btn">Dimensional Modeling</button>
+            <button class="btn btn-color-3 project-skills-btn">ETL</button>
+          </div>
+        </div>
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/GSWW.png" alt="Screenshot of data report on Washington State girls' mental health" class="project-img" />
@@ -259,6 +305,7 @@
             <button class="btn btn-color-3 project-skills-btn">Data Storytelling</button>
           </div>
         </div>
+        
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/Bot.png" alt="Screenshot of data report on Washington State girls' mental health"
@@ -281,23 +328,6 @@
             <button class="btn btn-color-3 project-skills-btn">UX/UI</button>
           </div>
         </div>
-        <!-- <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project3.png" alt="project 3" class="project-img" />
-          </div>
-        
-          <h2 class="skills-subtitle project-title">Cost of Living Data Dashboard (In Progress)</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='url'">GitHub</button>
-            <button class="btn btn-color-2 project-btn" onclick="toggleDescription(this)">Learn More</button>
-          </div>
-          <p class="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo totam rem neque similique eligendi repellat quisquam placeat enim voluptatem a saepe soluta, ipsa officiis pariatur perferendis, cupiditate ea nostrum deserunt.</p>
-          <div class="btn-container project-skills">
-            <button class="btn btn-color-3 project-skills-btn">GSheets</button>
-            <button class="btn btn-color-3 project-skills-btn">Tableau</button>
-            <button class="btn btn-color-3 project-skills-btn">Data Visualization</button>
-          </div>
-        </div> -->
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/Website.png" alt="Screenshot of the landing page of this website" class="project-img" />
